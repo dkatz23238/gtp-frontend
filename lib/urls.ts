@@ -82,3 +82,5 @@ export const LabelsURLS = {
   full: "https://api.growthepie.xyz/v1/labels/full.json",
   sparkline: "https://api.growthepie.xyz/v1/labels/sparkline.json",
 };
+
+export const Foo = "Bar";
