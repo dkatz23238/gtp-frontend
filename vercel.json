@@ -3,9 +3,6 @@
     "deploymentEnabled": false
   },
   "crons": [
-    {
-      "path": "/api/trackers/octant/cron",
-      "schedule": "*/1 * * * *"
-    }
+  
   ]
 }
