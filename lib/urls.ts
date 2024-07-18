@@ -1,5 +1,5 @@
 export const MetricsURLs = {
-  "daily-active-addresses": "https://api.growthepie.xyz/v1/metrics/daa.json",
+  "daily-active-addresses": "http://localhost:8000/growthepie/daa.json",
   "fees-paid-by-users": "https://api.growthepie.xyz/v1/metrics/fees.json",
   "stablecoin-market-cap":
     "https://api.growthepie.xyz/v1/metrics/stables_mcap.json",
@@ -71,7 +71,7 @@ export const EconomicsURL = "https://api.growthepie.xyz/v1/economics.json";
 
 export const LandingURL = "https://api.growthepie.xyz/v1/landing_page.json";
 
-export const MasterURL = "https://api.growthepie.xyz/v1/master.json";
+export const MasterURL = "http://localhost:8000/growthepie/master.json";
 
 export const ContractsURL = "https://api.growthepie.xyz/v1/contracts.json";
 

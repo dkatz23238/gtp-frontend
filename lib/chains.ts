@@ -48,6 +48,30 @@ export const AllChains: Chain[] = [
     },
     darkTextOnBackground: true,
   },
+  
+  {
+    label: "Rari",
+    icon: "/icons/Base.png",
+    key: "rari",
+    urlKey: "rari",
+    chainType: "L2",
+    ecosystem: ["op-stack", "op-super", "all-chains"],
+    description:
+      "Base is an fully EVM compatible optimistic rollup built on the OP Stack. It is incubated inside of Coinbase. Public mainnet launch was on August 9th 2023.",
+      border: {
+        light: ["border-[#D235D7]", "border-[#D235D7]"],
+        dark: ["border-[#C5FFFD]", "border-[#C5FFFD]"],
+      },
+      colors: {
+        light: ["#D235D7", "#D235D7"], // text color
+        dark: ["#C5FFFD", "#C5FFFD"], // text color
+      }, // yellow-orange
+      backgrounds: {
+        light: ["bg-[#D235D7]", "bg-[#D235D7]"],
+        dark: ["bg-[#C5FFFD]", "bg-[#C5FFFD]"],
+      },
+    darkTextOnBackground: false,
+  },
   {
     label: "Base",
     icon: "/icons/Base.png",
