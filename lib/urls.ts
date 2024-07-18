@@ -1,16 +1,16 @@
 export const MetricsURLs = {
-  "daily-active-addresses": "https://api.growthepie.xyz/v1/metrics/daa.json",
+  "daily-active-addresses": "https://chainolap.noves.fi/growthepie/daa.json",
   "fees-paid-by-users": "https://api.growthepie.xyz/v1/metrics/fees.json",
   "stablecoin-market-cap":
     "https://api.growthepie.xyz/v1/metrics/stables_mcap.json",
   "total-value-locked": "https://api.growthepie.xyz/v1/metrics/tvl.json",
-  "transaction-count": "https://api.growthepie.xyz/v1/metrics/txcount.json",
+  "transaction-count": "https://chainolap.noves.fi/growthepie/txcount.json",
   "transaction-costs": "https://api.growthepie.xyz/v1/metrics/txcosts.json",
   "rent-paid": "https://api.growthepie.xyz/v1/metrics/rent_paid.json",
   profit: "https://api.growthepie.xyz/v1/metrics/profit.json",
   "fully-diluted-valuation": "https://api.growthepie.xyz/v1/metrics/fdv.json",
   "market-cap": "https://api.growthepie.xyz/v1/metrics/market_cap.json",
-  throughput: "https://api.growthepie.xyz/v1/metrics/throughput.json",
+  throughput: "https://chainolap.noves.fi/growthepie/throughput.json",
 };
 
 export const ChainURLs = {
@@ -71,7 +71,7 @@ export const EconomicsURL = "https://api.growthepie.xyz/v1/economics.json";
 
 export const LandingURL = "https://api.growthepie.xyz/v1/landing_page.json";
 
-export const MasterURL = "https://api.growthepie.xyz/v1/master.json";
+export const MasterURL = "https://chainolap.noves.fi/growthepie/master.json";
 
 export const ContractsURL = "https://api.growthepie.xyz/v1/contracts.json";
 
@@ -82,3 +82,5 @@ export const LabelsURLS = {
   full: "https://api.growthepie.xyz/v1/labels/full.json",
   sparkline: "https://api.growthepie.xyz/v1/labels/sparkline.json",
 };
+
+export const Foo = "Bar";
