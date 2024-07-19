@@ -1,11 +1,11 @@
 export const MetricsURLs = {
   "daily-active-addresses": "https://chainolap.noves.fi/growthepie/daa.json",
-  "fees-paid-by-users": "https://api.growthepie.xyz/v1/metrics/fees.json",
+  "fees-paid-by-users": "https://chainolap.noves.fi/growthepie/fees.json",
   "stablecoin-market-cap":
     "https://api.growthepie.xyz/v1/metrics/stables_mcap.json",
   "total-value-locked": "https://api.growthepie.xyz/v1/metrics/tvl.json",
   "transaction-count": "https://chainolap.noves.fi/growthepie/txcount.json",
-  "transaction-costs": "https://api.growthepie.xyz/v1/metrics/txcosts.json",
+  "transaction-costs": "https://chainolap.noves.fi/growthepie/txcosts.json",
   "rent-paid": "https://api.growthepie.xyz/v1/metrics/rent_paid.json",
   profit: "https://api.growthepie.xyz/v1/metrics/profit.json",
   "fully-diluted-valuation": "https://api.growthepie.xyz/v1/metrics/fdv.json",
