@@ -637,8 +637,6 @@ export const Get_SupportedChainKeys = (
 };
 
 export const Get_DefaultChainSelectionKeys = (master: MasterResponse) => {
-  const supportedChainKeys = Get_SupportedChainKeys(master);
-  return master.default_chain_selection.filter((key) =>
-    supportedChainKeys.includes(key),
-  );
+  // const supportedChainKeys = Get_SupportedChainKeys(master);
+  return ['linea', 'rari'];
 };
